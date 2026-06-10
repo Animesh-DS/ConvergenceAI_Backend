@@ -1,0 +1,1 @@
+Dilemma: We need to decide if we should migrate our legacy monolithic database to a distributed microservices architecture by Q3. Our engineering team is at 90% capacity, but server costs are rising.

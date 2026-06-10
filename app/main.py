@@ -14,7 +14,7 @@ app.add_middleware(
 )
 
 # Mount Routers
-# app.include_router(upload.router, prefix="/api") 
+app.include_router(upload.router, prefix="/api") 
 app.include_router(debate.router, prefix="/api")
 
 @app.get("/")
