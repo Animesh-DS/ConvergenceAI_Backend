@@ -20,7 +20,10 @@
         "prob_fc6fab5b": "Why should we believe in god ?",
         "prob_064778a8": "Why should we believe in god ?",
         "prob_35a48259": "Why should we believe in god ?",
-        "prob_7b7139f8": "god real or not?"
+        "prob_7b7139f8": "god real or not?",
+        "prob_0fb70e4f": "Hello dear",
+        "prob_7691bb46": "Hello dear",
+        "prob_f4b52b98": "Should we sleep 10 hrs or 8 hrs"
     },
     "debates": {
         "deb_d3a942a6": {
@@ -264,6 +267,43 @@
                     "rex": "Rex emphasizes the importance of empirical evidence and logical reasoning in determining the existence of a deity, dismissing personal experience and human impact as irrelevant.",
                     "nova": "Nova suggests that historical data and metrics imply the concept of a deity can be explained by human culture and psychology, making empirical evidence for a higher power redundant.",
                     "zara": "Zara highlights the limitations of empirical evidence in testing the existence of a deity and the possibility of an unfalsifiable hypothesis, where a deity's existence is intentionally concealed from human observation."
+                },
+                "winning_argument": "consensus"
+            }
+        },
+        "deb_716a84ee": {
+            "problem_id": "prob_0fb70e4f",
+            "rounds": 3,
+            "status": "started"
+        },
+        "deb_e0f6226a": {
+            "problem_id": "prob_7691bb46",
+            "rounds": 3,
+            "status": "completed",
+            "final_result": {
+                "verdict": "The debate concludes with a consensus that a balanced approach, combining user experience and performance optimization, is the most effective strategy, but with the acknowledgment that it requires careful consideration of potential trade-offs and adaptability to unforeseen market shifts.",
+                "confidence": 80,
+                "summary_by_agent": {
+                    "aria": "Aria argues that human-centered solutions prioritizing user experience and market potential, combined with iterative design and continuous user feedback, can drive positive impact through innovation.",
+                    "rex": "Rex suggests that prioritizing performance and cost optimization is more efficient, as it prevents unnecessary expenditures and mediocrity, and proposes a strictly logical, performance-first strategy.",
+                    "nova": "Nova proposes a balanced approach, weighing both user experience and performance optimization, supported by data-driven decision making and historical metrics to maximize positive impact.",
+                    "zara": "Zara critiques the balanced approach for its vulnerability to trade-offs and the limitations of data-driven decision making in the face of unforeseen market shifts and black swan events."
+                },
+                "winning_argument": "consensus"
+            }
+        },
+        "deb_fbdfd0f7": {
+            "problem_id": "prob_f4b52b98",
+            "rounds": 3,
+            "status": "completed",
+            "final_result": {
+                "verdict": "The debate concludes with a consensus that 8 hours of sleep is the optimal amount for most adults, despite some arguments suggesting that individual variability and modern lifestyle factors may necessitate more sleep.",
+                "confidence": 80,
+                "summary_by_agent": {
+                    "aria": "Aria argues that 10 hours of sleep can lead to improved cognitive function and overall well-being, and that prioritizing sleep is crucial for human prosperity.",
+                    "rex": "Rex claims that 8 hours is the optimal amount of sleep for a balanced lifestyle, as excessive sleep can lead to decreased productivity and increased sleep inertia.",
+                    "nova": "Nova suggests that historical data supports 8 hours as the sweet spot for most adults, and that empirical evidence should be prioritized over speculative claims about increased sleep needs.",
+                    "zara": "Zara argues that individual variability and modern lifestyle factors, such as screen time and stress, can significantly alter sleep requirements, potentially making 8 hours insufficient for many adults."
                 },
                 "winning_argument": "consensus"
             }
@@ -2309,6 +2349,300 @@
                     "aria"
                 ],
                 "timestamp": "2026-06-12T11:22:26.434656Z"
+            }
+        ],
+        "deb_716a84ee": [
+            {
+                "turn_id": "turn_6a8dc528",
+                "agent": "aria",
+                "round": 1,
+                "message": "Let's tackle a pressing issue: how can we harness technology to drive positive human impact, focusing on user experience and market potential to create a better future for all?",
+                "targets": [],
+                "timestamp": "2026-06-12T11:35:29.794076Z"
+            },
+            {
+                "turn_id": "turn_b29fe19d",
+                "agent": "rex",
+                "round": 1,
+                "message": "Aria's vague proposal lacks concrete metrics for success, ignoring the crucial cost-benefit analysis necessary for scalable, impactful solutions.",
+                "targets": [
+                    "aria"
+                ],
+                "timestamp": "2026-06-12T11:35:31.229377Z"
+            },
+            {
+                "turn_id": "turn_afe2fd95",
+                "agent": "nova",
+                "round": 1,
+                "message": "I agree with Rex, Aria's proposal needs concrete data-driven metrics, and historical trends show that ignoring cost-benefit analysis can lead to unsustainable solutions.",
+                "targets": [
+                    "aria",
+                    "rex"
+                ],
+                "timestamp": "2026-06-12T11:35:31.843065Z"
+            },
+            {
+                "turn_id": "turn_683233a5",
+                "agent": "zara",
+                "round": 1,
+                "message": "Nova and Rex are overly relying on historical trends and cost-benefit analysis, neglecting the potential for emerging technologies to disrupt traditional metrics and create new, unforeseen opportunities for positive impact.",
+                "targets": [
+                    "nova",
+                    "rex"
+                ],
+                "timestamp": "2026-06-12T11:35:32.253214Z"
+            }
+        ],
+        "deb_e0f6226a": [
+            {
+                "turn_id": "turn_674bebe9",
+                "agent": "aria",
+                "round": 1,
+                "message": "As we begin, let's focus on human-centered solutions that prioritize user experience and market potential, driving positive impact through innovation.",
+                "targets": [],
+                "timestamp": "2026-06-12T11:35:40.545905Z"
+            },
+            {
+                "turn_id": "turn_f4cea713",
+                "agent": "rex",
+                "round": 1,
+                "message": "Prioritizing user experience and market potential is inefficient without first optimizing for performance and cost, as unnecessary expenditures can negate any potential positive impact.",
+                "targets": [
+                    "aria"
+                ],
+                "timestamp": "2026-06-12T11:35:41.061204Z"
+            },
+            {
+                "turn_id": "turn_964fa4b6",
+                "agent": "nova",
+                "round": 1,
+                "message": "Historical data suggests that a balanced approach, weighing both user experience and performance optimization, yields the most significant positive impact, as seen in successful tech startups that prioritized both aspects from the onset.",
+                "targets": [
+                    "aria",
+                    "rex"
+                ],
+                "timestamp": "2026-06-12T11:35:41.776055Z"
+            },
+            {
+                "turn_id": "turn_ab90eb58",
+                "agent": "zara",
+                "round": 1,
+                "message": "However, a balanced approach can be vulnerable to trade-offs, where compromises on user experience and performance optimization can lead to mediocrity in both aspects, ultimately hindering the overall positive impact.",
+                "targets": [
+                    "nova"
+                ],
+                "timestamp": "2026-06-12T11:35:42.491644Z"
+            },
+            {
+                "turn_id": "turn_d9bb302e",
+                "agent": "aria",
+                "round": 2,
+                "message": "While trade-offs are inherent in a balanced approach, I argue that iterative design and continuous user feedback can mitigate these risks, allowing for refinement and optimization of both user experience and performance over time.",
+                "targets": [
+                    "zara"
+                ],
+                "timestamp": "2026-06-12T11:35:42.903655Z"
+            },
+            {
+                "turn_id": "turn_7b782a3f",
+                "agent": "rex",
+                "round": 2,
+                "message": "Aria's reliance on iterative design and user feedback is reactive, whereas proactive optimization of performance and cost can prevent mediocrity from the outset, making it a more efficient approach",
+                "targets": [
+                    "aria"
+                ],
+                "timestamp": "2026-06-12T11:35:43.618768Z"
+            },
+            {
+                "turn_id": "turn_7d6bea95",
+                "agent": "nova",
+                "round": 2,
+                "message": "Proactive optimization, as suggested by Rex, can be supported by data-driven decision making, where historical metrics inform performance and cost optimization, thereby minimizing the risk of mediocrity and maximizing positive impact.",
+                "targets": [
+                    "rex",
+                    "aria"
+                ],
+                "timestamp": "2026-06-12T11:35:44.128320Z"
+            },
+            {
+                "turn_id": "turn_9114934d",
+                "agent": "zara",
+                "round": 2,
+                "message": "Nova's reliance on historical metrics is flawed, as it assumes past trends will dictate future outcomes, ignoring the potential for unforeseen market shifts and black swan events that can render data-driven decision making obsolete.",
+                "targets": [
+                    "nova"
+                ],
+                "timestamp": "2026-06-12T11:35:44.726906Z"
+            },
+            {
+                "turn_id": "turn_1b7a7110",
+                "agent": "aria",
+                "round": 3,
+                "message": "While data-driven decision making has its limitations, I believe that combining it with iterative design and continuous user feedback can create a robust framework for adapting to unforeseen market shifts, thereby maximizing positive impact.",
+                "targets": [
+                    "zara",
+                    "nova"
+                ],
+                "timestamp": "2026-06-12T11:35:45.462387Z"
+            },
+            {
+                "turn_id": "turn_3aa132ca",
+                "agent": "rex",
+                "round": 3,
+                "message": "Aria's proposed framework is still inefficient, as it prioritizes adaptability over proactive optimization, and Nova's data-driven approach is susceptible to zara's pointed critique of unforeseen market shifts, whereas a strictly logical, performance-first strategy would yield more consistent results.",
+                "targets": [
+                    "aria",
+                    "nova"
+                ],
+                "timestamp": "2026-06-12T11:35:46.077043Z"
+            },
+            {
+                "turn_id": "turn_a1899a2d",
+                "agent": "nova",
+                "round": 3,
+                "message": "Rex's strict performance-first strategy, while efficient, neglects the role of user experience in driving long-term market potential, and historical data shows that startups prioritizing both aspects have higher success rates.",
+                "targets": [
+                    "rex"
+                ],
+                "timestamp": "2026-06-12T11:35:46.588115Z"
+            },
+            {
+                "turn_id": "turn_6245c535",
+                "agent": "zara",
+                "round": 3,
+                "message": "Nova's assertion that startups prioritizing both user experience and performance have higher success rates is based on historical data, which may not account for the impact of black swan events on these startups, potentially skewing the results and rendering the comparison inaccurate.",
+                "targets": [
+                    "nova"
+                ],
+                "timestamp": "2026-06-12T11:35:47.304342Z"
+            }
+        ],
+        "deb_fbdfd0f7": [
+            {
+                "turn_id": "turn_4c14c622",
+                "agent": "aria",
+                "round": 1,
+                "message": "Sleeping 10 hours can lead to improved cognitive function, enhanced creativity, and better overall well-being, giving individuals a competitive edge in their personal and professional lives. This, in turn, can have a positive impact on the economy and society as a whole. With the demands of modern life, prioritizing sleep is crucial for human prosperity.",
+                "targets": [],
+                "timestamp": "2026-06-12T11:36:10.143167Z"
+            },
+            {
+                "turn_id": "turn_6c5d1f14",
+                "agent": "rex",
+                "round": 1,
+                "message": "While 10 hours of sleep may have benefits, it is excessive for most adults and can lead to decreased productivity and increased sleep inertia, outweighing any potential cognitive gains. 8 hours is the optimal amount for a balanced lifestyle.",
+                "targets": [
+                    "aria"
+                ],
+                "timestamp": "2026-06-12T11:36:10.650941Z"
+            },
+            {
+                "turn_id": "turn_addcfccf",
+                "agent": "nova",
+                "round": 1,
+                "message": "Historical data suggests that 8 hours of sleep is the sweet spot for most adults, as seen in studies where participants who slept 8 hours showed significant improvements in cognitive function and productivity, whereas sleeping 10 hours led to decreased alertness and grogginess. Aria's argument for 10 hours overlooks the potential drawbacks of excessive sleep. Rex's stance on 8 hours is more aligned with empirical evidence.",
+                "targets": [
+                    "aria",
+                    "rex"
+                ],
+                "timestamp": "2026-06-12T11:36:11.371085Z"
+            },
+            {
+                "turn_id": "turn_6969cd9f",
+                "agent": "zara",
+                "round": 1,
+                "message": "However, Nova's reliance on historical data overlooks the impact of modern lifestyle factors such as screen time, stress, and caffeine consumption, which can significantly alter sleep requirements, making 8 hours potentially insufficient for many adults.",
+                "targets": [
+                    "nova"
+                ],
+                "timestamp": "2026-06-12T11:36:11.984217Z"
+            },
+            {
+                "turn_id": "turn_5705cf5f",
+                "agent": "aria",
+                "round": 2,
+                "message": "While historical data may suggest 8 hours is sufficient, the evolving nature of human lifestyle and environmental factors, such as increased stress and screen time, necessitate a reevaluation of sleep requirements, potentially supporting the need for more than 8 hours of sleep for optimal well-being.",
+                "targets": [
+                    "nova",
+                    "rex"
+                ],
+                "timestamp": "2026-06-12T11:36:12.482431Z"
+            },
+            {
+                "turn_id": "turn_5fad359f",
+                "agent": "rex",
+                "round": 2,
+                "message": "Aria's and Zara's arguments about evolving lifestyle factors are speculative and lack concrete evidence, whereas the empirical data supports 8 hours as the optimal sleep duration for most adults, making it the most logical choice for a balanced lifestyle.",
+                "targets": [
+                    "aria",
+                    "zara"
+                ],
+                "timestamp": "2026-06-12T11:36:12.951614Z"
+            },
+            {
+                "turn_id": "turn_e7d16141",
+                "agent": "nova",
+                "round": 2,
+                "message": "Zara's point about modern lifestyle factors is valid, but empirical evidence still suggests that 8 hours is the optimal sleep duration for most adults, and we should be cautious of anecdotal claims about increased sleep needs. Historical data and metrics indicate that 8 hours provides the best balance between rest and productivity. Aria's call for a reevaluation of sleep requirements is premature without more concrete data.",
+                "targets": [
+                    "zara",
+                    "aria"
+                ],
+                "timestamp": "2026-06-12T11:36:13.563089Z"
+            },
+            {
+                "turn_id": "turn_e2940a66",
+                "agent": "zara",
+                "round": 2,
+                "message": "Nova's caution against anecdotal claims is prudent, but it overlooks the inherent variability in individual sleep needs, which can be significantly influenced by factors like genetics, age, and underlying health conditions, potentially rendering 8 hours insufficient for a substantial portion of the population.",
+                "targets": [
+                    "nova"
+                ],
+                "timestamp": "2026-06-12T11:36:13.996276Z"
+            },
+            {
+                "turn_id": "turn_6c6c1dda",
+                "agent": "aria",
+                "round": 3,
+                "message": "Given the inherent variability in individual sleep needs and the impact of modern lifestyle factors, a one-size-fits-all approach to sleep duration may not be effective, and prioritizing 10 hours of sleep could provide a necessary buffer for optimal well-being. By acknowledging and accommodating these differences, we can foster a more inclusive and supportive environment that values human prosperity. This approach can have long-term benefits for both individuals and society as a whole.",
+                "targets": [
+                    "rex",
+                    "nova"
+                ],
+                "timestamp": "2026-06-12T11:36:14.720017Z"
+            },
+            {
+                "turn_id": "turn_8ad0f3d7",
+                "agent": "rex",
+                "round": 3,
+                "message": "Aria's proposal for 10 hours of sleep is overly broad and neglects the significant productivity losses and potential negative effects of excessive sleep, while Nova and I have consistently emphasized the importance of aligning with empirical evidence that supports 8 hours as the optimal sleep duration for most adults.",
+                "targets": [
+                    "aria"
+                ],
+                "timestamp": "2026-06-12T11:36:15.257955Z"
+            },
+            {
+                "turn_id": "turn_f4dbc31a",
+                "agent": "nova",
+                "round": 3,
+                "message": "While Aria and Zara raise valid points about individual variability and modern lifestyle factors, the empirical evidence still overwhelmingly supports 8 hours as the optimal sleep duration for most adults, and we should prioritize data-driven decision making over speculative claims. Rex's emphasis on empirical evidence is well-founded, and we should exercise caution in deviating from established norms without robust data. Historical data and metrics consistently indicate that 8 hours provides the best balance between rest and productivity.",
+                "targets": [
+                    "aria",
+                    "zara",
+                    "rex"
+                ],
+                "timestamp": "2026-06-12T11:36:15.903242Z"
+            },
+            {
+                "turn_id": "turn_9177c8f8",
+                "agent": "zara",
+                "round": 3,
+                "message": "Nova's and Rex's reliance on empirical evidence is flawed as it fails to account for the potential biases and limitations inherent in the data collection methods, such as self-reported sleep duration and inconsistent definitions of 'optimal sleep', which can significantly impact the validity of the findings. This oversight undermines the credibility of their argument.",
+                "targets": [
+                    "nova",
+                    "rex"
+                ],
+                "timestamp": "2026-06-12T11:36:16.589278Z"
             }
         ]
     }
